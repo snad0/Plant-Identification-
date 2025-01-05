@@ -7,9 +7,7 @@ import tensorflow as tf
 # from keras.preprocessing.image import ImageDataGenerator
 from keras.models import load_model
   
-
 app = Flask(__name__)
-  
 
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
